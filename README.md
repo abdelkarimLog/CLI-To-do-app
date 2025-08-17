@@ -1,0 +1,67 @@
+# 📝 CLI To-Do App
+
+A simple command-line to-do list manager built with Python using [Typer](https://typer.tiangolo.com/) and [Rich](https://rich.readthedocs.io/).  
+
+› You can make, preview, complete, and delete tasks — all from your terminal ⌨️
+
+---
+
+## 🛠 Requirements
+
+› Python 3.8+
+
+› Typer
+
+› Rich
+
+
+## 📦 Installation
+
+1. Clone the repo:
+```bash
+git clone https://github.com/abdelkarimLog/CLI-to-do-app.git
+cd todo-cli
+```
+
+2. Install Typer (Rich will come with it):
+```bash
+pip3 install typer
+```
+
+
+## ⚡ Usage
+
+Run with Python:
+```python
+python3 main.py --help
+```
+
+➕ Add a task:
+```python
+python3 main.py add Study
+```
+```python
+python3 main.py add "Learn Bash"
+```
+
+📃 List tasks:
+```python
+python3 main.py list
+```
+
+✔️ Mark a task as done:
+```python
+python3 main.py done 1 #choose tasks by their number
+```
+
+🗑️ Delete a task
+```python
+python3 main.py delete 2 #use --all instead of the number to delete all tasks
+```
+---
+
+This is a learning / practice project 
+
+More features will be added soon ...
+
+---
