@@ -19,8 +19,8 @@ A simple command-line to-do list manager built with Python using [Typer](https:/
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/abdelkarimLog/CLI-to-do-app.git
-cd todo-cli
+git clone https://github.com/abdelkarimLog/CLI-To-do-app.git
+cd CLI-To-do-app
 ```
 
 2. Install Typer (Rich will come with it):
@@ -32,30 +32,30 @@ pip3 install typer
 ## ⚡ Usage
 
 Run with Python:
-```python
+```bash
 python3 main.py --help
 ```
 
 ➕ Add a task:
-```python
+```bash
 python3 main.py add Study
 ```
-```python
+```bash
 python3 main.py add "Learn Bash"
 ```
 
 📃 List tasks:
-```python
+```bash
 python3 main.py list
 ```
 
 ✔️ Mark a task as done:
-```python
+```bash
 python3 main.py done 1 #choose tasks by their number
 ```
 
 🗑️ Delete a task
-```python
+```bash
 python3 main.py delete 2 #use --all instead of the number to delete all tasks
 ```
 ---
