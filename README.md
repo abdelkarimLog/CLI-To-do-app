@@ -9,7 +9,9 @@ A simple command-line todo list manager built with Python using [Typer](https://
 ## 🛠 Requirements
 
 › Python 3.8+
+
 › Typer
+
 › Rich
 
 ## 📦 Installation
