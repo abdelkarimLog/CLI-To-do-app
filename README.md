@@ -19,7 +19,7 @@ A simple command-line todo list manager built with Python using [Typer](https://
 1. Clone the repo:
 ```bash
 git clone https://github.com/abdelkarimLog/cli_todo.git
-cd CLI-To-do-app
+cd cli_todo
 ```
 
 2. Install Typer (Rich will come with it):
@@ -47,16 +47,27 @@ python3 main.py add "Learn Bash"
 ```bash
 python3 main.py list
 ```
+📑 List in table view:
+```bash
+python3 main.py list --table #or -t for short
+```
 
-✔️ Mark a task as done:
+✔️ Mark tasks as done:
 ```bash
 python3 main.py done 1 #choose tasks by their number
 ```
+```bash
+python3 main.py done --all #or -a
+```
 
-🗑️ Delete a task
+🗑️ Delete tasks
 ```bash
 python3 main.py delete 2 #use --all instead of the number to delete all tasks
 ```
+```bash
+python3 main.py delete --all #or -a
+```
+
 ---
 
 This is a learning / practice project 
